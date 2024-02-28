@@ -1,0 +1,84 @@
+html {
+    height: 100%;
+}
+ 
+body{
+    /* height: 100%;
+    background: rgb(34,193,195);
+    background: linear-gradient(
+        to bottom right,
+        rgb(255, 255, 253)0%,
+     rgb(228, 221, 132) 51%,
+     rgb(0, 145, 110)100%
+    ); */
+    background-image: linear-gradient(330deg, #ff69ca 0, #ff6cb1 3.33%, #ff7398 6.67%, #ff7c80 10%, #ff8769 13.33%, #ff9452 16.67%, #ffa039 20%, #ffac19 23.33%, #ffb700 26.67%, #ffc200 30%, #ffcb00 33.33%, #f6d400 36.67%, #dfdb00 40%, #c7e200 43.33%, #ace800 46.67%, #8eed0c 50%, #69f136 53.33%, #2df553 56.67%, #00f86d 60%, #00fa86 63.33%, #00fca0 66.67%, #00fdbb 70%, #00fed5 73.33%, #00ffef 76.67%, #00ffff 80%, #00ffff 83.33%, #00feff 86.67%, #00fcff 90%, #00faff 93.33%, #00f7ff 96.67%, #00f3ff 100%);
+    font-family: sans-serif;
+    color: black;
+    
+}
+
+main{
+   /*  border: 1px solid black; */
+   width: 730px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+}
+
+.section1{
+    background-color: rgba(255,255 , 255, 0.2);
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+}
+
+section table tr td button{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.section2{
+    background-color: rgba(255,255 , 255, 0.2);
+    width: 250px;
+    height: 450px;
+   border-radius: 8px;
+    padding: 0 20px;
+    margin-left: 20px;
+}
+
+
+.estadisticas{
+    border: 1px solid white;
+    height: 105px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+
+.btnjuegonuevo{
+    padding: 15px;
+    border-radius: 8px;
+   margin-left: 55px;
+   font-weight: bold;
+}
+
+.btnjuegonuevo:hover{
+    cursor: pointer;
+
+}
+
+
+img{
+    width: 80%;
+}
+
